@@ -22,8 +22,8 @@ app.use(cookieParser());
 // enable CORS(cross origin resource sharing)
 app.use(
   cors({
-    origin: process.env.ORIGIN,
-    // origin: ["http://localhost:3000"],
+    // origin: process.env.ORIGIN,
+    origin: ["https://mind-matrix-frontend-f5nt.vercel.app"],
     credentials: true,
   })
 );
